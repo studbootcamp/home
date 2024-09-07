@@ -26,6 +26,7 @@ let studentData = [
     {name:"Samuel Joseph",repo:"samuel"},
     {name:"Umar Faruq Abdullahi",repo:"umar"},
     {name:"Usman Abulrrahamn Aliyu",repo:"usman"},
+    {name:"Beulah Loveth Emmanuel",repo:"beulah"},
 ]
 
 let student = document.getElementById("students")
