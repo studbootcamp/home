@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./vendor/aos/aos.css">
+    <meta name="description" content="Kids Bootcamp final projects">
+    <title>Bootcamp</title>
+    <style>
+        body{
+            font-family: cursive;
+            text-decoration: none;
+            background-color: rgba(110, 190, 255, 0.411);
+        }
+        .loader{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+           overflow: hidden;
+           position: fixed;
+        }
+        nav{
+            font-family: cursive;
+            background-color: rgba(0, 54, 104, 0.116);
+        }
+        .stud{
+           transition: .5s;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .stud:hover{
+            box-shadow: 0 0.5rem 1rem rgba(247, 246, 246, 0.363);
+        }
+        .students{
+            width: 80%;
+            margin: auto;
+            text-decoration: none;
+        }
+        .html{
+            color: rgb(255, 30, 0);
+            border-radius: 50%;
+        }
+        .css{
+            color: rgb(67, 67, 255);
+            border-radius: 50%;
+        }
+        footer{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body class="text-light text-center">
+    <div id="loader" class="loader">
+        <img src="./ajax-loader.gif" alt="">
+    </div>
+    
+   <nav class=" p-3 shadow mb-5 text-dark">
+    <div class="text-center">
+        <h1>Kids BootCamp <span data-aos="from-tp" class="text-success">2024</span> Projects</h1>
+        
+       </div> 
+   </nav>
+   <main>
+        <div class="container">
+            <div  id="students" class="row students justify-content-center text-center-3">
+            </div>
+        </div>
+   </main>
+   <footer class="bg-white text-dark">
+        Stud 
+   </footer>
+</body>
+<script src="./vendor/aos/aos.js"></script>
+<script src="./script.js">
+</script>
+</html>
