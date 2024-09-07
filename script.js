@@ -32,7 +32,7 @@ let student = document.getElementById("students")
 
 studentData.map(x=>{
     student.innerHTML += `
-         <a href="https://studbootcamp.github.io/${x.repo}" data-aos="from-left" class="stud bg-light text-dark shadow m-2 col-lg-3 col-sm-5">
+         <a style="text-decoration:none;" href="https://studbootcamp.github.io/${x.repo}" data-aos="from-left" class="stud bg-light text-dark shadow m-2 col-lg-3 col-sm-5">
                     <h4>${x.name}</h4>
                 </a>
         
